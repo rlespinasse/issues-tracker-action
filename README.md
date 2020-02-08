@@ -20,7 +20,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
 ```
 
-or with a specific label (like `documentation`):
+or with a specific label (like `documentation`) and a specific delimiter (like `-`):
 
 ```yaml
 on: issues
@@ -33,4 +33,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           HOLDER_LABEL: "documentation"
+          DELIMITER: "-"
 ```
