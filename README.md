@@ -15,7 +15,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: rlespinasse/issues-tracker-action@action
+      - uses: rlespinasse/issues-tracker-action@master
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
 ```
@@ -29,7 +29,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: rlespinasse/issues-tracker-action@action
+      - uses: rlespinasse/issues-tracker-action@master
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           HOLDER_LABEL: "documentation"
