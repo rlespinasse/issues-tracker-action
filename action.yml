@@ -1,0 +1,9 @@
+name: "Issues Tracker"
+description: "Track sub-issues state"
+author: "Romain Lespinasse"
+runs:
+  using: "docker"
+  image: "Dockerfile"
+branding:
+  icon: "grid"
+  color: "orange"
